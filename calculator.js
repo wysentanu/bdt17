@@ -15,7 +15,7 @@ var Calculator = {
         return a % b
     },
     kuadrat: function(a,b){
-        return a ^ b
+        return Math.pow(a,b)
     },
     akar: function(a){
         return Math.sqrt(a)
